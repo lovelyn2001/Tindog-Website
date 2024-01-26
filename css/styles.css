@@ -1,0 +1,180 @@
+body{
+    font-family: "Montserrat-black";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* NavBar Section */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat-light";
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-btn{
+   margin: 5% 3% 5% 0;
+}
+
+/* title-img */
+
+.iphone6-img {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* features section */
+
+#features{
+    text-align: center;
+    padding:7% 15%;
+}
+
+/* div containing put the h1 and p */
+
+.h1andp{
+    margin: 20px auto;
+}
+
+h3{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+   
+}
+
+p{
+    color: #8f8f8f;
+    width: 60%;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+/* font awesome icons */
+
+.features-icon{
+    color: #ef8172;
+    font-size: 3.5rem;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonals Section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    padding: 3%;
+    text-align: center;
+}
+
+.Press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing{
+   padding: 100px;
+   text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+/* cta section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+ 
+ }
+ 
+ .cta-h3{
+     font-size: 3.5rem;
+     font-family: 'Montserrat-bold', sans-serif;
+ }
+ 
+ /* footer section */
+ 
+ #footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+ }
+ 
+ .footer-icon{
+     margin: 20px 10px;
+ }
+
+@media(max-width: 1070px){
+    #title{
+        text-align: center;
+      
+    }
+
+    .iphone6-img{
+        transform: rotate(0);
+    }
+}
